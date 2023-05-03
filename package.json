@@ -4,5 +4,14 @@
   "main": "index.js",
   "repository": "https://github.com/Mohosin999/Design-System-Enterprise-Application-.git",
   "author": "Mohosin999 <programmermohosin@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^6.6.1"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "private": true
 }
