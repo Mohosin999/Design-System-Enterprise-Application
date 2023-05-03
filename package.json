@@ -1,0 +1,8 @@
+{
+  "name": "@ds.e/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Mohosin999/Design-System-Enterprise-Application-.git",
+  "author": "Mohosin999 <programmermohosin@gmail.com>",
+  "license": "MIT"
+}
