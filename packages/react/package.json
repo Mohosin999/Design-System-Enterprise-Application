@@ -2,5 +2,15 @@
   "name": "@ds.e/react",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "rollup": "^3.21.3",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  }
 }
