@@ -12,5 +12,8 @@
   },
   "scripts": {
     "build": "rollup -c"
+  },
+  "dependencies": {
+    "@ds.e/scss": "1.0.0"
   }
 }

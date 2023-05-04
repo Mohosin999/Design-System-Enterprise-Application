@@ -1,0 +1,18 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   lernaVersion: '6.6.1',
+0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js',
+0 silly argv   script: 'build'
+0 silly argv }
+1 notice cli v6.6.1
+2 verbose rootPath C:\Users\User\Desktop\DS.E
+3 error Error: Invalid package name "ds.e/scss": name can only contain URL-friendly characters
+3 error     at invalidPackageName (C:\Users\User\Desktop\DS.E\node_modules\lerna\node_modules\npm-package-arg\npa.js:89:15)
+3 error     at Result.setName (C:\Users\User\Desktop\DS.E\node_modules\lerna\node_modules\npm-package-arg\npa.js:124:11)
+3 error     at new Result (C:\Users\User\Desktop\DS.E\node_modules\lerna\node_modules\npm-package-arg\npa.js:114:23)
+3 error     at Function.resolve (C:\Users\User\Desktop\DS.E\node_modules\lerna\node_modules\npm-package-arg\npa.js:61:15)
+3 error     at C:\Users\User\Desktop\DS.E\node_modules\lerna\dist\cli.js:733:61
+3 error     at Array.forEach (<anonymous>)
+3 error     at C:\Users\User\Desktop\DS.E\node_modules\lerna\dist\cli.js:713:42
+3 error     at PackageGraph.forEach (<anonymous>)
+3 error     at new PackageGraph (C:\Users\User\Desktop\DS.E\node_modules\lerna\dist\cli.js:706:14)
