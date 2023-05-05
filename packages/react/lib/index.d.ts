@@ -1,3 +1,4 @@
 import Button from "./attoms/Button/Button";
 import Color from "./attoms/Color/Color";
-export { Button, Color };
+import Spacing from "./foundation/Spacing";
+export { Button, Color, Spacing };
