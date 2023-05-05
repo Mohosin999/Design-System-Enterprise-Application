@@ -11,7 +11,7 @@
   "workspaces": {
     "packages": [
       "packages/*",
-      "playgrounds/*"
+      "playgrounds"
     ]
   },
   "private": true,
